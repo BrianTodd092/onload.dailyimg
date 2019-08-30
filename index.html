@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>diffimg onload</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<style>
+#b  {
+      position: relative;
+      left: 30%;
+}
+</style>
+</head>
+<body>
+<img id="a" src="img1.png" alt="img1">
+<img id="b" src="img2.png" alt="img2">
+<img id="c" src="img3.png" alt="img3">
+<img id="d" src="img4.png" alt="img4">
+<img id="e" src="img5.png" alt="img5">
+<img id="f" src="img6.png" alt="img6">
+<img id="g" src="img7.png" alt="img7">
+
+<!-- script located html document, external script delay loading image.-->
+
+<script>
+var time = new Date();
+var d = time.getDay();
+
+
+
+
+var greeting;
+
+document.getElementById('a').style.display = 'none';
+document.getElementById('b').style.display = 'none';
+document.getElementById('c').style.display = 'none';
+document.getElementById('d').style.display = 'none';
+document.getElementById('e').style.display = 'none';
+document.getElementById('f').style.display = 'none';
+document.getElementById('g').style.display = 'none';
+
+
+ if (d == 5)   {
+     greeting = document.getElementById('a').style.display = 'block';}   // friday   
+
+
+else if ( d == 6)  {
+      greeting = document.getElementById('b').style.display = 'block';}   // saturday   
+
+ 
+
+else if ( d == 0)  {
+      greeting = document.getElementById('c').style.display = 'block';}   // sunday
+    
+
+else if ( d == 1)  {
+      greeting = document.getElementById('d').style.display = 'block';}   //monday      
+
+
+
+else if ( d == 2)  {
+      greeting = document.getElementById('e').style.display = 'block';}   //tuesday
+     
+
+else if ( d == 3)  {
+      greeting = document.getElementById('f').style.display = 'block';}   // wednesday      
+
+
+ 
+ else if ( d == 4) {
+        greeting = document.getElementById('g').style.display = 'block';}  // thursday
+
+
+else {
+       greeting = "" ;
+}
+
+
+
+document.image(greeting);
+</script>
+
+
+</body>
+</html>
