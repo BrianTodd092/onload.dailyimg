@@ -1,0 +1,8 @@
+#b  {
+      position: relative;
+      left: 30%;
+}
+      
+#a,#b,#c,#d,#e,#f,#g {
+                        display: none;
+}
