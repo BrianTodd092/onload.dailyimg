@@ -6,3 +6,4 @@
 #a,#b,#c,#d,#e,#f,#g {
                         display: none;
 }
+noscript { color:red; font-family: Impact, Charcoal, sans-serif;}
