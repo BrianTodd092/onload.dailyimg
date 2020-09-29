@@ -1,9 +1,8 @@
-#b  {
-      position: relative;
-      left: 30%;
-}
-      
 #a,#b,#c,#d,#e,#f,#g {
-                        display: none;
+                        display: none; 
+                        position: relative;
+                        left: 30%;
+                        top: 20%;
+                        
 }
 noscript { color:red; font-family: Impact, Charcoal, sans-serif;}
